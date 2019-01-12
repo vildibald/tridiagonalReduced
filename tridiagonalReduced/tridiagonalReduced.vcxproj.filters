@@ -18,12 +18,102 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stopwatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comparison_benchmark_result.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_extensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="first_reduced_tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="second_reduced_tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="third_reduced_tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="standard_tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reduced_tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="equation_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="first_reduced_constant_tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="second_reduced_constant_tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="third_reduced_constant_tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fourth_reduced_constant_tridiagonal_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="tridiagonalReduced.cpp">
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comparison_benchmark_result.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="first_reduced_tridiagonal_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="second_reduced_tridiagonal_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="third_reduced_tridiagonal_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="standard_tridiagonal_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tridiagonal_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reduced_tridiagonal_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tridiagonalReducedNON_UNI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="equation_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="first_reduced_constant_tridiagonal_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="second_reduced_constant_tridiagonal_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="third_reduced_constant_tridiagonal_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fourth_reduced_constant_tridiagonal_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

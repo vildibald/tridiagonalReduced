@@ -37,31 +37,31 @@ void first_reduced_tridiagonal_system::prepare()
 	{
 		const auto i = 2 * index + 1;
 
-		const auto a1 = a[i - 1];
-		const auto a2 = a[i];
-		const auto a3 = a[i + 1];
+		const auto a0 = a[i - 1];
+		const auto a1 = a[i];
+		const auto a2 = a[i + 1];
 
-		const auto b1 = b[i - 1];
-		const auto b2 = b[i];
-		const auto b3 = b[i + 1];
+		const auto b0 = b[i - 1];
+		const auto b1 = b[i];
+		const auto b2 = b[i + 1];
 
-		const auto c1 = c[i - 1];
-		const auto c2 = c[i];
-		const auto c3 = c[i + 1];
+		const auto c0 = c[i - 1];
+		const auto c1 = c[i];
+		const auto c2 = c[i + 1];
 
-		const auto rho1 = r[i - 1];
-		const auto rho2 = r[i];
-		const auto rho3 = r[i + 1];
+		const auto rho0 = r[i - 1];
+		const auto rho1 = r[i];
+		const auto rho2 = r[i + 1];
 
-		ld[index] = b3 * a2 * a1;
+		ld[index] = b2 * a1 * a0;
 
 		md[index] =
-			b3 * (a2 * c1 - b1 * b2) + b1 * c2 * a3;
+			b2 * (a1 * c0 - b0 * b1) + b0 * c1 * a2;
 
-		ud[index] = b1 * c2 * c3;
+		ud[index] = b0 * c1 * c2;
 
 		rhs[index + 1] =
-			b3 * (a2 * rho1 - b1 * rho2) + b1 * c2 * rho3;
+			b2 * (a1 * rho0 - b0 * rho1) + b0 * c1 * rho2;
 	}
 	rhs[0] = df;
 	rhs[1] -= ld[0] * df;

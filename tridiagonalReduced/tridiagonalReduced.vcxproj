@@ -23,7 +23,7 @@
     <ProjectGuid>{7EED2C35-3C3E-4051-AB0F-806002905B25}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>tridiagonalReduced</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <ProjectName>tridiagonalReducedNON_UNI</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

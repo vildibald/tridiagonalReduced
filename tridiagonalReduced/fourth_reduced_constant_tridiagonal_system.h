@@ -3,8 +3,6 @@
 #include "number.h"
 #include "standard_tridiagonal_system.h"
 #include "reduced_tridiagonal_system.h"
-#include <boost/functional/hash.hpp>
-#include <ostream>
 
 class fourth_reduced_constant_tridiagonal_system : public reduced_tridiagonal_system
 {
